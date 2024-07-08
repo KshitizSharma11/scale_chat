@@ -5,10 +5,13 @@
     "scripts": {
         "start": "node dist/index",
         "dev": "tsc-watch --onSuccess 'node dist/index.js'",
-        "build":"tsc -p ."
+        "build": "tsc -p ."
     },
     "devDependencies": {
         "tsc-watch": "^6.2.0",
         "typescript": "^5.5.3"
+    },
+    "dependencies": {
+        "socket.io": "^4.7.5"
     }
 }
